@@ -40,7 +40,7 @@ const COOKIES_FILE_PATH = 'cookies.json';
         // Scroll through reels
         for (let i = 0; i < 20; i++) {
             await page.keyboard.press('ArrowDown');
-            await new Promise(resolve => setTimeout(resolve, 30000)); // Use Promise for delay
+            await new Promise(resolve => setTimeout(resolve, 30000)); 
         }
 
     } catch (error) {
